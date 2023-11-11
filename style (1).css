@@ -1,0 +1,58 @@
+body {
+  background: url(images/sunsetBG.jfif);
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.7);
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+hr {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 7px 15px;
+  background: lightcoral;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 1s, color 1s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: black;
+  color: lightcoral;
+  transition: background 1s, color 1s;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input:hover {
+  border: 3px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 12px;
+  font-style: italic;
+}
+
+img {
+  border-radius: 100px;
+}
